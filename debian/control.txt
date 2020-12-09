@@ -1,0 +1,12 @@
+Source: django-react-setup
+Maintainer: ANDRUXUIS abdealex05@gmail.com
+Section: utils
+Priority: optional
+Standards-Version: 1.0.0
+Build-Depends: fpc, lazarus, lcl, lcl-utils, debhelper (>= 8)
+
+Package: django-react-setup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: and simple bash script for configure the bare bone of project base on react.js and django
+HomePage: https://launchpad.net/django-react-setup
